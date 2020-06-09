@@ -1,0 +1,50 @@
+.game-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2%;
+  justify-content: space-evenly;
+  width: 90%;
+  margin: 0 auto;
+}
+.div-padd{
+  padding: 300px 0;
+}
+.kos-div{
+  transform: skewY(-10deg);
+  background-color: rgb(247, 243, 243);
+}
+.kontra-kos-div{
+  transform: skewY(10deg);
+  margin-top: -150px;
+  margin-bottom: -150px;
+}
+.prikazi{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.prikazi h1{
+  color: black;
+}
+.sokrij{
+  display: none;
+}
+.ssss{
+  padding:250px 50px;
+  background-color: rgb(226, 226, 221);
+  box-shadow: 0 8px 6px -6px black;
+}
+.redSm {
+  color: red;
+}
+@media screen and (max-width: 768px) {
+  .game-list {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 426px) {
+  .game-list {
+    width: 90%;
+    margin: 0 auto;
+  }
+}

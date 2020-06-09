@@ -1,0 +1,105 @@
+.div-padd{
+  padding: 200px 0;
+}
+.kos-div{
+  transform: skewY(-10deg);
+  background-color: darkgray;
+}
+.kontra-kos-div{
+  transform: skewY(10deg);
+}
+
+.game-details {
+  padding: 150px;
+}
+.slika-centar{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cekori-div{
+  margin: 25px 0px;
+}
+.game-details h1 {
+  font-weight: bold;
+  color: black;
+}
+.gray-div {
+  background-color: rgb(216, 212, 212);
+  border-radius: 5px;
+  padding: 25px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.in-g-d {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  
+}
+.in-g-d i {
+  font-size: 30px;
+}
+.bold-p {
+  font-weight: bold;
+}
+.gray-p {
+  color: gray;
+}
+.f-a {
+  padding: 15px;
+}
+.description-div {
+  margin: 50px 0;
+}
+@media screen and (max-width: 768px) {
+  .game-details {
+    padding: 15px;
+  }
+  .game-details h1{
+    color: black;
+  }
+  .gray-div {
+    display: flex;
+    align-items: baseline;
+    width: 95%;
+    margin: 0 auto;
+    padding: 5px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .full-details{
+    width: 425px;
+  }
+  .full-details h1{
+    padding: 50px 0px;
+  }
+  .full-details img{
+    width: 100%;
+  }
+  .game-details {
+    padding: 10px;
+  }
+  .in-g-d{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    padding: 25px;
+  }
+  .gray-div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 0 auto;
+    align-items: baseline;
+    font-size: 12px;
+  }
+ .game-details h1{
+    color: black;
+  }
+}

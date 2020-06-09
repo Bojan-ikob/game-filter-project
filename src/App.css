@@ -1,0 +1,21 @@
+body{
+  background-color: rgb(75, 26, 190);
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 768px;
+  }
+}
+@media screen and (max-width: 426px) {
+  .App {
+   position: relative;
+  }
+  body {
+    width: 100%;
+  }
+}
+button:hover{
+transform: scale(1.075);
+}
+

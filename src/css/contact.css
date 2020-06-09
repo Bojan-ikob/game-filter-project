@@ -1,0 +1,66 @@
+.full-contact {
+  text-align: center;
+  background-color: whitesmoke;
+}
+.full-contact h1 {
+  color: rgb(24, 23, 23);
+  font-size: 50px;
+  margin: 15px 0 0 0;
+  border-bottom: 1px solid darkgray;
+}
+.contact-div {
+  width: 80%;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact-div h1 {
+  color: whitesmoke;
+}
+.subBtn {
+  padding: 10px 30px;
+}
+input,
+select {
+  margin: 15px;
+  padding: 10px;
+  border-radius: 4px;
+}
+input {
+  width: 90%;
+}
+select {
+  width: 90%;
+}
+textarea {
+  width: 90%;
+  height: 150px;
+  margin-top: 50px;
+  border-radius: 4px;
+}
+.pod1,
+.pod2 {
+  width: 50%;
+}
+@media screen and (max-width: 768px) {
+  .contact-div {
+    width: 650px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 426px) {
+  .contact-div {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .pod1,
+  .pod2 {
+    width: 100%;
+  }
+  h1{
+    margin: 15px 0 0 0;
+    font-size: 40px;
+  }
+}

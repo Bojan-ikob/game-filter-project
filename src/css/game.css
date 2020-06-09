@@ -1,0 +1,64 @@
+.game {
+  width: 30%;
+  margin-top: 2%;
+  padding: 15px;
+}
+.one-game {
+  border-radius: 5px;
+  background-color: rgb(226, 226, 221);
+  width: 100%;
+  box-shadow: 0 8px 6px -6px black;
+}
+.one-game:hover{
+  transform: scale(1.05);
+}
+.game-img img {
+  width: 100%;
+}
+.game-img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.igra-k-opis {
+  padding: 15px;
+}
+.fff {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon {
+  padding: 25px;
+}
+.icon img {
+  width: 70px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.casovnik {
+  margin-right: 5px;
+}
+.bold-p {
+  font-weight: bold;
+}
+.kategorija {
+  color: rgb(37, 235, 235);
+}
+@media screen and (max-width: 768px) {
+  .game {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 426px) {
+  .game {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .game-img {
+    display: none;
+  }
+}

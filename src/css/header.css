@@ -1,0 +1,91 @@
+.header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 25px;
+  background-color: rgba(27, 27, 27, 0.5);
+  z-index: 1;
+}
+.hide-header{
+display: none;
+}
+.menu {
+  font-size: 17px;
+  color: rgb(247, 224, 25);
+  cursor: pointer;
+  width: 20%;
+}
+.brainsterLogo img {
+  width: 175px;
+  cursor: pointer;
+}
+.linkovi {
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.obukiKopce {
+  padding: 15px 10px;
+  border-radius: 4px;
+  border: none;
+  color: black;
+  font-weight: bold;
+  background-color: rgb(247, 224, 25);
+}
+.vrabotiKopce {
+  padding: 15px 10px;
+  border-radius: 4px;
+  border: none;
+  background-color: black;
+  font-weight: bold;
+  color: rgb(247, 224, 25);
+  margin-left: 5px;
+}
+.fa-bars {
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .obukiKopce,
+  .vrabotiKopce {
+    margin: 5px;
+    padding: 10px;
+    font-size: 10px;
+  }
+  .brainsterLogo img {
+    width: 150px;
+  }
+  .menu {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 426px) {
+  .header {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .brainsterLogo {
+    padding-right: 25px;
+  }
+  .linkovi {
+    padding: 0;
+    width: 90%;
+    margin: 0 auto;
+    height: 50px;
+  }
+  .obukiKopce,
+  .vrabotiKopce {
+    font-size: 12px;
+    padding: 10px;
+  }
+}
